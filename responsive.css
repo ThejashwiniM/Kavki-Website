@@ -1,0 +1,669 @@
+/*On screens that are 320px(Mobile-small) wide or less*/
+@media screen and (max-width:320px){
+	#container{
+		position:relative;
+	}
+	#home{
+		width:100%;
+	    height:100%;
+	}
+	#homeheading{
+	font-size:22px;
+	margin-top:15px;
+	overflow:hidden;
+}
+	#homecontent{
+		font-size:15px;
+		margin-top:20px;
+		padding-right:5px;
+		margin-right:8px;
+	}
+	#talktous{
+		margin-top:10px;
+		margin-bottom: 20px;
+	}
+	.background{
+		width:90%;
+		height:100%;
+		margin-top:20px;
+	}
+	/*About Us*/
+	#aboutusheading{
+		font-size:25px;
+	}
+	#aboutuscontent{
+		font-size:15px;
+	}
+	.aboutusbackground{
+		width:100%;
+		height:70%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:25px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:25px;
+	}
+	/*Contact Us*/
+	#contactusheading{
+		font-size: 25px;
+	}
+    i.fa.fa-phone-square{
+		margin-left:10%;
+	}
+	i.fa.fa-envelope{
+		margin-left:10%;
+	}
+	i.fa.fa-map-marker{
+		margin-left:10%;
+	}
+	#phone{
+		padding-left:10%;
+	}
+	#email{
+		padding-left: 10%;
+	}
+	#address{
+		padding-left: 10%;
+	}
+	.contacttext2{
+		font-family: 'Mulish', sans-serif;
+		padding-left:27%;
+		color:black;
+		font-size:15px;
+	}
+	#map{
+		margin-left:25%;
+	}
+	/*Form*/
+	.contact-form{
+		margin-left:6%;
+	}
+	.contact-title{
+	    font-size:20px;
+		padding:1%;
+	}
+	.form-group{
+		width:300px;
+	}
+	.label-1{
+		font-size:15px;
+	}
+	.label-2{
+		font-size: 15px;
+	}
+	.label-3{
+		font-size: 15px;
+	}
+	/*Social media icon*/
+	#socialmediaicon{
+		margin-left:5%;
+	}
+	i.fa.fa-facebook{
+       padding:10px;
+	   margin:18px;
+	}
+	i.fa.fa-twitter{
+        padding:10px;
+	   margin:18px;
+	}
+	i.fa.fa-google{
+		padding:10px;
+		margin:18px;
+	}
+	i.fa.fa-linkedin{
+		padding:10px;
+		margin:18px;
+	}
+	/*EasyKred*/
+
+}
+/*On screens that are 375px(Mobile-medium) wide or more*/
+@media screen and (min-width:375px){
+	#container{
+		position:relative;
+	}
+	#home{
+		width:90%;
+	    height:100%;
+	}
+	#homeheading{
+	font-size:24px;
+	margin-top:15px;
+	overflow:hidden;
+	text-align:center;
+}
+	#homecontent{
+		font-size:17px;
+		margin-top:20px;
+		text-align:justify;
+	}
+	#talktous{
+		margin-top:10px;
+		margin-bottom: 20px;
+	}
+	.background{
+		width:90%;
+		height:100%;
+		margin-top:20px;
+	}
+	/*About*/
+	#aboutusheading{
+		font-size:27px;
+	}
+	#aboutuscontent{
+		font-size:17px;
+	}
+	.aboutusbackground{
+		width:100%;
+		height:70%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:27px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:27px;
+	}
+	/*Contact Us*/
+    #contactusheading{
+		font-size: 27px;
+	}
+    i.fa.fa-phone-square{
+		margin-left:12%;
+	}
+	i.fa.fa-envelope{
+		margin-left:12%;
+	}
+	i.fa.fa-map-marker{
+		margin-left:12%;
+	}
+	#phone{
+		padding-left:12%;
+	}
+	#email{
+		padding-left: 12%;
+	}
+	#address{
+		padding-left: 12%;
+	}
+	.contacttext2{
+		font-family: 'Mulish', sans-serif;
+		padding-left:29%;
+		color:black;
+		font-size:17px;
+	}
+	#map{
+		margin-left:25%;
+	}
+	/*Form*/
+	.contact-form{
+		margin-left:10%;
+	}
+	.contact-title{
+	    font-size:22px;
+		padding:1%;
+	}
+	.form-group{
+		width:310px;
+	}
+	.label-1{
+		font-size:17px;
+	}
+	.label-2{
+		font-size: 17px;
+	}
+	.label-3{
+		font-size: 17px;
+	}
+	/*Social media icon*/
+	#socialmediaicon{
+		margin-left:7%;
+	}
+	i.fa.fa-facebook{
+       padding:10px;
+	   margin:18px;
+	}
+	i.fa.fa-twitter{
+        padding:10px;
+	   margin:18px;
+	}
+	i.fa.fa-google{
+		padding:10px;
+		margin:18px;
+	}
+	i.fa.fa-linkedin{
+		padding:10px;
+		margin:18px;
+	}
+}
+/*On screens that are 425px(Mobile-large) wide or more*/
+@media screen and (min-width:425px){
+	#container{
+		position:relative;
+	}
+	#home{
+		width:90%;
+	    height:100%;
+	}
+	#homeheading{
+	font-size:26px;
+	margin-top:15px;
+	overflow:hidden;
+}
+	#homecontent{
+		font-size:18px;
+		margin-top:20px;
+	}
+	#talktous{
+		margin-top:10px;
+		margin-bottom: 20px;
+	}
+	.background{
+		width:90%;
+		height:100%;
+		margin-top:20px;
+	}
+	/*About*/
+	#aboutusheading{
+		font-size:29px;
+	}
+	#aboutuscontent{
+		font-size:19px;
+	}
+	.aboutusbackground{
+		width:100%;
+		height:70%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:29px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:29px;
+	}
+	/*Contact Us*/
+    #contactusheading{
+		font-size: 27px;
+	}
+    i.fa.fa-phone-square{
+		margin-left:12%;
+	}
+	i.fa.fa-envelope{
+		margin-left:12%;
+	}
+	i.fa.fa-map-marker{
+		margin-left:12%;
+	}
+	#phone{
+		padding-left:12%;
+	}
+	#email{
+		padding-left: 12%;
+	}
+	#address{
+		padding-left: 12%;
+	}
+	.contacttext2{
+		font-family: 'Mulish', sans-serif;
+		padding-left:29%;
+		color:black;
+		font-size:16px;
+	}
+	#map{
+		margin-left:25%;
+	}
+	/*Form*/
+	.contact-form{
+		margin-left:12%;
+	}
+	.contact-title{
+	    font-size:24px;
+		padding:1%;
+	}
+	.form-group{
+		width:330px;
+	}
+	.label-1{
+		font-size:19px;
+	}
+	.label-2{
+		font-size: 19px;
+	}
+	.label-3{
+		font-size: 19px;
+	}
+	/*Social media icon*/
+	#socialmediaicon{
+		margin-left:9%;
+	}
+	i.fa.fa-facebook{
+       padding:10px;
+	   margin:19px;
+	}
+	i.fa.fa-twitter{
+        padding:10px;
+	   margin:19px;
+	}
+	i.fa.fa-google{
+		padding:10px;
+		margin:19px;
+	}
+	i.fa.fa-linkedin{
+		padding:10px;
+		margin:19px;
+	}
+}
+/*On screens that are 768px(Tablet) wide or more*/
+@media screen and (min-width:768px){
+	#container{
+		position:relative;
+	}
+	#home{
+		width:90%;
+	    height:100%;
+	}
+	#homeheading{
+	font-size:30px;
+	margin-top:20px;
+	overflow:hidden;
+}
+	#homecontent{
+		font-size:26px;
+		margin-top:20px;
+	}
+	#talktous{
+		margin-top:10px;
+		margin-bottom: 20px;
+	}
+	.background{
+		width:90%;
+		height:100%;
+		margin-top:20px;
+	}
+	/*About*/
+	#aboutusheading{
+		font-size:31px;
+	}
+	#aboutuscontent{
+		font-size:21px;
+	}
+	.aboutusbackground{
+		width:100%;
+		height:70%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:31px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:31px;
+	}
+	/*Contact Us*/
+    #contactusheading{
+		font-size: 29px;
+	}
+    i.fa.fa-phone-square{
+		margin-left:12%;
+	}
+	i.fa.fa-envelope{
+		margin-left:12%;
+	}
+	i.fa.fa-map-marker{
+		margin-left:12%;
+	}
+	#phone{
+		padding-left:12%;
+	}
+	#email{
+		padding-left: 12%;
+	}
+	#address{
+		padding-left: 12%;
+	}
+	.contacttext2{
+		font-family: 'Mulish', sans-serif;
+		padding-left:29%;
+		color:black;
+		font-size:16px;
+	}
+	#map{
+		margin-left:25%;
+	}
+	/*Form*/
+	.contact-form{
+		margin-left:12%;
+	}
+	.contact-title{
+	    font-size:26px;
+		padding:1%;
+	}
+	.form-group{
+		width:330px;
+	}
+	.label-1{
+		padding-top:1%;
+		font-size:20px;
+	}
+	.label-2{
+		font-size: 20px;
+	}
+	.label-3{
+		font-size: 20px;
+	}
+	/*Social media icon*/
+	#socialmediaicon{
+		margin-left:10%;
+	}
+	i.fa.fa-facebook{
+       padding:10px;
+	   margin:20px;
+	}
+	i.fa.fa-twitter{
+        padding:10px;
+	   margin:20px;
+	}
+	i.fa.fa-google{
+		padding:10px;
+		margin:20px;
+	}
+	i.fa.fa-linkedin{
+		padding:10px;
+		margin:20px;
+	}
+}
+/*On screens that are 1024px(Laptop) wide or more*/
+@media screen and (min-width:1024px){
+	#container{
+		width:100%;
+		height: 100vh;
+		position:relative;
+	}
+	#home{
+		width:50%;
+	    height: 90%;
+	    overflow-y: hidden; 
+	}
+	#homeheading{
+		font-size:33px;
+	    text-align: left;
+	    overflow:hidden;
+		padding-top:150px;
+}
+	#homecontent{
+		font-size:20px;
+	}
+	.background{
+		width:45%;
+	    height:65%;
+	    float:right;
+	    position: absolute;
+	    top:20%;
+	    left:55%;
+	}
+	/*About*/
+	#aboutuscontentcontainer{
+		width:50%;
+	    height: 90%;
+	    overflow-y: hidden;
+	}
+	#aboutusheading{
+		font-size:33px;
+	}
+	#aboutuscontent{
+		font-size:19px;
+	}
+	.aboutusbackground{
+		width:40%;
+		height:60%;
+		float:right;
+		position: absolute;
+		top:27%;
+		left:55%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:33px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:33px;
+	}
+	/*Contact Us*/
+	#contactusheading{
+		font-size:31px;
+	}
+    i.fa.fa-phone-square{
+		margin-left:12%;
+	}
+	i.fa.fa-envelope{
+		margin-left:12%;
+	}
+	i.fa.fa-map-marker{
+		margin-left:13%;
+	}
+	#phone{
+		padding-left:7%;
+	}
+	#email{
+		padding-left: 7%;
+	}
+	#address{
+		padding-left: 7%;
+	}
+	.contacttext2{
+		font-family: 'Mulish', sans-serif;
+		padding-left:23%;
+		color:black;
+		font-size:16px;
+	}
+	#map{
+		margin-left:10%;
+		margin-right: 10%;
+	}
+	/*Form*/
+	.contact-form{
+		margin-left:5%;
+	}
+	.contact-title{
+	    font-size:24px;
+		padding:1%;
+	}
+	.form-group{
+		width:400px;
+	}
+	.label-1{
+		padding-top:1%;
+		font-size:20px;
+	}
+	.label-2{
+		font-size: 20px;
+	}
+	.label-3{
+		font-size: 20px;
+	}
+	/*Social media icon*/
+	#socialmediaicon{
+		margin-left:10%;
+	}
+	i.fa.fa-facebook{
+       padding:10px;
+	   margin:20px;
+	}
+	i.fa.fa-twitter{
+        padding:10px;
+	   margin:20px;
+	}
+	i.fa.fa-google{
+		padding:10px;
+		margin:20px;
+	}
+	i.fa.fa-linkedin{
+		padding:10px;
+		margin:20px;
+	}
+}
+/*On screens that are 1440px(Laptop-Large) wide or more*/
+@media screen and (min-width:1440px){
+	#container{
+		width:100%;
+		height: 100vh;
+		position:relative;
+	}
+	#home{
+		width:50%;
+	    height: 90%;
+	    overflow-y: hidden; 
+	}
+	#homeheading{
+		font-size:45px;
+	    text-align: left;
+		padding-top:100px;
+	    overflow:hidden;
+}
+	#homecontent{
+		font-size:35px;
+		padding-top:20px;
+	}
+	.background{
+		width:40%;
+	    height:50%;
+	    float:right;
+	    position: absolute;
+	    top:30%;
+	    left:55%;
+	}
+	/*About*/
+	#aboutuscontentcontainer{
+		width:50%;
+	    height: 90%;
+	    overflow-y: hidden;
+	}
+	#aboutusheading{
+		font-size:40px;
+	}
+	#aboutuscontent{
+		font-size:19px;
+	}
+	.aboutusbackground{
+		width:40%;
+		height:60%;
+		float:right;
+		position: absolute;
+		top:30%;
+		left:55%;
+	}
+	/*Our Services*/
+	#servicesheading{
+		font-size:40px;
+	}
+	/*Industries*/
+	#industriesheading{
+		font-size:40px;
+	}
+}

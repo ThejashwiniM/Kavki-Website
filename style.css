@@ -1,0 +1,476 @@
+*{
+	box-sizing: border-box;
+	margin:0%;
+	padding:0%;
+}
+/*Navbar*/
+#logo{
+	outline: none;
+}
+.nav-item{
+	text-align:center;
+}
+button.navbar-toggler{
+	padding:5px;
+	border-radius:7px;
+	border-width: 2px;
+	outline: none;
+}
+ .navbar-toggler{
+	border-color:#454545;
+	
+	outline: none;
+}
+.nav-link{
+	outline: none;
+}
+li.nav-item{
+	text-transform: uppercase;
+	font-family: 'Mulish', sans-serif;
+	font-weight:bold;
+	
+}
+.navbar,a{
+	color:#f15a24;
+}
+.navbar,a:hover{
+	color:#454545;
+}
+li.nav-item:hover{
+	/*border:1px solid silver;
+	background-color:rgb(255, 203, 91);
+	border-radius:8px;*/
+	cursor: pointer;
+}
+a.nav-linkactive{
+	text-decoration: none;
+}
+/*Home*/
+#container{
+	width:100%;
+	/*height: 100vh;*/
+	position: relative;
+}
+/*#home{
+	width:50%;
+	height: 90%;
+	overflow-y: hidden;
+}*/
+#homeheading{
+	/*margin-top: 150px;*/
+	text-transform:uppercase;
+    color:#f15a24;
+	font-family: 'Mulish', sans-serif;
+	padding-top:60px;
+	margin-left:18px;
+}
+#homecontent{
+	color:#454545;
+	font-family: 'Mulish', sans-serif;
+	text-align: justify;
+	/*margin-top:30px;*/
+	margin-left:20px;
+}
+#talktous{
+	text-decoration: none;
+    border:1px solid silver;
+	border-radius: 10px;
+	padding:5px 10px 5px 10px;
+	/*margin-top: 30px;*/
+	margin-left: 25px;
+	background-color:#f15a24;
+	color:white;
+	box-shadow:3px 3px silver;
+	font-family: 'Mulish', sans-serif;
+}
+#talktous:hover{
+    color:#f15a24;
+	background-color: white;
+	cursor:pointer;
+	outline:none;
+}
+.background{
+	/*width:40%;
+	height:50%;
+	float:right;
+	position: absolute;
+	top:30%;
+	left:55%;*/
+}
+/*About us*/
+#aboutus{
+	width:100%;
+	position:relative;
+}
+#aboutusheading{
+	padding-top:65px;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	color:#f15a24;
+}
+#aboutuscontentcontainer{
+	margin-top:20px;
+}
+#aboutuscontent{
+	font-family: 'Mulish', sans-serif;
+	margin:5px;
+	text-align: justify;
+	color:#454545;
+}
+#moto{
+	text-transform:uppercase;
+	color:#f15a24;
+}
+.aboutusbackground{
+    /*width:100px;
+	height: 100px;*/
+}
+/*Our Work
+#work{
+	font-family: 'Mulish', sans-serif;
+	margin-top:5%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#151b54;
+}
+#fastfxheading{
+	font-family: 'Mulish', sans-serif;
+	color:rgb(46, 46, 46);
+	text-align: center;
+}
+#fastfxcontent{
+    font-family: 'Mulish', sans-serif;
+	color:#f15a24;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	padding-bottom: 2%;
+	background-color: #151b54;
+	text-align: center;
+	margin-left: 3%;
+	margin-right:3%;
+}
+.fastfxcontent1{
+	font-family: 'Mulish', sans-serif;
+   color:white;
+}*/
+/*EasyKred
+#easykredheading{
+	font-family: 'Mulish', sans-serif;
+	color:rgb(46, 46, 46);
+	text-align: center;
+}
+#easykredintrocontainer{
+    background-color:rgb(203, 230, 241);
+	margin-left: 3%;
+	margin-right:3%;
+}
+#easykredintro{
+    text-align:center;
+	font-family: 'Mulish', sans-serif;
+	color:#151b54;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+#easykredservices{
+    color:#f15a24;
+}
+#card{
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	color:rgb(46, 46, 46);
+	text-transform: capitalize;
+}
+#card1{
+    font-family: 'Mulish', sans-serif;
+	color: #f15a24;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	text-transform:capitalize;
+}
+#card2{
+	font-family: 'Mulish', sans-serif;
+	color: #f15a24;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	text-transform:capitalize;
+}
+.physicalcard{
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	color:#151b54;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+.virtualcard{
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	color:#151b54;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:2%;
+	padding-bottom: 2%;
+}*/
+/*Our Services*/
+#ourservices{
+	width:100%;
+	height:100%;
+}
+#servicesheading{
+	font-family: 'Mulish', sans-serif;
+	color:#f15a24;
+	text-transform: uppercase;
+	padding-top: 65px;
+	text-align: center;
+}
+#servicessubheading{
+	font-family: 'Mulish', sans-serif;
+	color:#151b54;
+	font-style: italic;
+	text-align: center;
+    padding:1%;
+}
+#servicescontent{
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	color:#454545;
+	padding-left:2%;
+	padding-right: 2%;
+}
+#servicessubcontent{
+	color:#151b54;
+}
+/*Services Icon*/
+.wrapper-grid{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,20rem);
+   justify-content: center;
+   margin:2%;
+}
+.container{
+
+}
+.serviceiconcontent{
+	
+	font-family: 'Mulish', sans-serif;
+	color:#454545;
+}
+/*software solutions*/
+#softwaresolutions{
+
+}
+#softwareicon{
+
+}
+/*payment technology*/
+#paymenttechnology{
+
+}
+#paymenttechnologyicon{
+
+}
+/*b2b sales*/
+#b2bsales{
+
+}
+#b2bsalesicon{
+
+}
+/*fintech solutions*/
+#fintechsolutions{
+
+}
+#fintechicon{
+
+}
+/*customized invoicing*/
+#customizedinvoicing{
+
+}
+#invoicingicon{
+
+}
+/*financial services*/
+#financialservices{
+
+}
+#financialservicesicon{
+
+}
+/*payment processing*/
+#paymentprocessing{
+
+}
+#paymentprocessingicon{
+
+}
+/*payment solutions*/
+#paymentsolutions{
+
+}
+#paymentsolutionsicon{
+
+}
+#softwaredevelopmentcontent{
+	font-family: 'Mulish', sans-serif;
+	color:#151b54;
+	margin-left:5%;
+}
+/*Industries*/
+#industries{
+	width:100%;
+	height:100%;
+}
+#industriesheading{
+	font-family: 'Mulish', sans-serif;
+	color:#f15a24;
+	text-align: center;
+	padding-top:65px;
+}
+#industrycontainer{
+	border:1px solid lightgray;
+	border-radius:10px;
+	background-color:white;
+	padding-left:5%;
+	padding-right:5%;
+	margin-left:8%;
+	margin-right:8%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+.industriescontent{
+	font-family: 'Mulish', sans-serif;
+	color:#454545;
+}
+#b2bheading, #educationheading, #healthcareheading, #travelheading, #otaheading{
+	color:#f15a24;
+}
+/*B2B,education,health,travel*/
+i.fa.fa-check{
+	color:#f15a24;
+}
+/*OTA*/
+#otacontent{
+	font-family: 'Mulish', sans-serif;
+	text-align:center;
+}
+/*Contact Us*/
+#contactus{
+	width:100%;
+	height: 100%;
+	/*background-image: url(images/contactusbackground.jpg);*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#contactusheading{
+	padding-top:60px;
+	text-transform: uppercase;
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	color:#f15a24;
+}
+i.fa.fa-phone-square{
+    color:#454545;
+	margin-left:20%;
+}
+i.fa.fa-envelope{
+    color:#454545;
+	margin-left:20%;
+}
+i.fa.fa-map-marker{
+    color:#454545;
+	margin-left:20%;
+}
+#phone{
+    padding-left:3%;
+}
+#email{
+    padding-left: 3%;
+}
+#address{
+    padding-left: 3%;
+}
+.contacttext2{
+	font-family: 'Mulish', sans-serif;
+	padding-left:27%;
+	color:black;
+	font-size:15px;
+}
+/*Form
+.contact-form{
+	margin-left:10%;
+}*/
+.contact-title{
+	font-family: 'Mulish', sans-serif;
+	color:#454545;
+}
+
+.form-control{
+	
+}
+.label-1{
+   font-family: 'Mulish', sans-serif;
+   color: black;
+}
+.label-2{
+	font-family: 'Mulish', sans-serif;
+    color: black;
+}
+.label-3{
+	font-family: 'Mulish', sans-serif;
+    color: black;
+}
+.btn{
+	color:white;
+	background-color:#454545;
+	box-shadow:3px 3px #f15a24;
+}
+.btn:hover{
+	background-color:#f15a24;
+	color:#454545;
+}
+
+/*Social media icons*/
+#socialmediaicon{
+	/*margin-left:80px;*/
+}
+i.fa.fa-facebook{
+	border:1px solid black;
+	border-radius:50%;
+	/*padding:10px;
+	margin:20px;*/
+}
+i.fa.fa-twitter{
+    border:1px solid black;
+	border-radius:50%;
+	/*padding:10px;
+	margin:20px;*/
+}
+i.fa.fa-google{
+	border:1px solid black;
+	border-radius:50%;
+	/*padding:10px;
+	margin:20px;*/
+}
+i.fa.fa-linkedin{
+	border:1px solid black;
+	border-radius:50%;
+	/*padding:10px;
+	margin:20px;*/
+}
+/*Footer*/
+footer{
+	font-family: 'Mulish', sans-serif;
+	color:white;
+	background-color:gray;
+	text-align: center;
+	padding:2px;
+}
